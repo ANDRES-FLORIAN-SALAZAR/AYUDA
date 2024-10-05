@@ -1,0 +1,97 @@
+.ex1{
+    padding: 20px;
+    margin: 300px;
+    margin-left: 300px;
+    text-align: center;
+    background: hsl(210, 40%, 85%);
+    color:hsl(210,40% , 45%)
+    border-top: 2px solid hsl(210,40% , 45%);
+    font-family: sans-serif;
+    
+}
+.ex2{
+    margin: -20px 0px 0 -20px;
+    background: #0f0;
+    width: 66%;
+}
+.box{
+    margin: auto;
+    background-color: rgb(0,255,0);
+    width: 50px;
+    height: 50px;
+}
+body{
+    background-color: rgb(255, 94, 0);
+    margin: 0;
+    font-family: fantasy;
+    color: black;
+}
+
+.boxin{
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+    margin: 0;
+    /*background-size: cover;
+    background-position: center;*/
+    background-color: #0006;
+    background-image: url("https://imagen.research.google/main_gallery_images/a-robot-couple-fine-dining.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color:#00e1ff;
+}
+body{
+
+    background-color: #000a;
+    margin:0;
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    background: radial-gradient(green,black)
+}
+h5{
+    margin: 0;
+    color:#00e1ff;
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy;
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    background: #2d5c50;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 40px 20px 20px 20px #000;
+    text-shadow: 100px 100px 100px 100px #000 ;
+}
+.box3{
+    width: 150%;
+    height: 150px;
+    margin: center;
+    /*box-shadow: 10px 10px 40px 0px #0f0;*/
+    filter: drop-shadow(10px 0px 5px #036e);
+}
+.Tarjeta1{
+    width: 150%;
+    height: 150px;
+    margin: center;
+    text-align: center;
+    filter:drop-shadow(10px 0px 5px rgba(102, 0, 8, 0.933));
+}
+h4{
+    background-color: aqua;
+   
+}
+h3{
+    background-color: #2d5c50;
+    padding: 110px 110px 110px 110px;
+}
