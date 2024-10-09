@@ -27,26 +27,32 @@ form{
     padding: 6px 20px;
 }
 
-input , textarea{
+input , textarea,select{
     min-width: 100%;
     box-sizing: border-box;
     padding: 6px 12px;
+    margin: 15px;
     border: none;
     border: 1px solid #666;
     box-shadow: 0px 0px 15px #003;
     background-color: transparent;
     border-radius: 5px;
     color: #eee;
-    margin: auto;
+    
 }
 
 textarea{
     min-width: 100%;
     resize: none; /*no deja que el textarea cambie de tamaño*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 label{
     font-size: 0.9em;
     line-height: 2px;
+}
+
+option{
+    background-color: #222;
 }
