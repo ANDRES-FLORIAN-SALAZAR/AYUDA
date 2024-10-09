@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>TESXTAREA</title>
-        <link href="Main.css" rel="stylesheet">
+        <link href="textarea.css" rel="stylesheet">
 
     </head>
     <body>
@@ -12,20 +12,40 @@
         <form>
             <h2>Formulario de Contacto</h2>
             <div class="form_input">
-                <input type="text" placeholder="Nombre Completo">
+                <label for="input-Nombre">Nombre Completo
+                <input type="text" placeholder="Nombre Completo" id="input-nombre">
             </div>
 
             <div class="form_input">
+                <label for="input-email">Email</label>
                 <input type="email" placeholder="email @">
             </div>
 
             <div class="form_input">
-                <textarea rows="10" placeholder="Ingresa la información deseada"></textarea>
-                <!--el readonly sirve para que se muestre la info sin modificarla dentro de un textarea-->
-                <!--el disabled sirve para desactivar el campo de texto tarea-->
-                <!--el maxlenght="140" sirve para decirle el maximo de caracter en el textarea-->
+                <label>Tipo de Usuario
+                <select name="type-of-user">
+                <option value="user1"> Estudiante </option>
+                <option value="user1"> Docente </option>
+                <option value="user1"> Administrativo </option>
+                    </select>
+                </label>
             </div>
 
+            <div class="form_input">    
+                <label> Semestre
+                    <input list="Inscrito">
+                    <datalist id="Inscrito" name="type-of-user">
+                    <option value="Semestre I"> Técnico en Programación </option>
+                    <option value="Semestre II"> Técnico en Programación </option>
+                    <option value="Semestre III"> Técnico en Programación </option>
+                        </datalist>
+                    </label>
+                </div> 
+                
+                <div class="form_input">    
+                    <label> Mensaje
+                    <textarea rows="10" placeholder="Ingresa la información deseada"></textarea>
+                    </label>   
         </form>
     </body>
 </html>
